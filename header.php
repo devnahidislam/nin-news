@@ -17,7 +17,7 @@ switch ($page) {
             $sql_title = "SELECT * FROM category WHERE category_id = {$_GET['cid']}";
             $result_title = mysqli_query($conn, $sql_title) or die('Title query failed');
             $row_title = mysqli_fetch_assoc($result_title);
-            $page_title = $row_title['category_name'] . 'News';
+            $page_title = $row_title['category_name'] .' '. 'Page';
         } else {
             echo 'No Category Found';
         }
