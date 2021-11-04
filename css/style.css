@@ -99,7 +99,10 @@ img.logo {
     color: #fff;
     background-color: #1E90FF;
 }
-
+#admin-menubar .admin-menu ul li a .active {
+    color: #fff;
+    background-color: #1E90FF;
+}
 #admin-content {
     padding: 20px 0;
     min-height: 700px;
@@ -278,9 +281,9 @@ form {
     border: 3px solid #1e90ff;
 }
 
-#main-content .post-content .inner-content {
-    /* border: 1px solid #000; */
-}
+/* #main-content .post-content .inner-content {
+    border: 5px solid rgb(177, 23, 23);
+} */
 
 #main-content .post-content h3 {
     font-size: 21px;
